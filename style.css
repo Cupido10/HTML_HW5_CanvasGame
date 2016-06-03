@@ -1,0 +1,29 @@
+body{
+    text-align: center;  
+    color: blue;
+};
+
+#stage{
+   
+   font-size: 26px;
+   font-weight: bold;
+   position:absolute;
+   top:200px;
+   right:675px;
+}
+
+
+
+#press{
+  position:absolute;
+  top:800px;
+  right:850px;
+    
+}
+
+#myCanvas{
+   background-image: url(grasses68.gif);
+    position:relative;
+    top:0px;
+　  right:00px;
+}
