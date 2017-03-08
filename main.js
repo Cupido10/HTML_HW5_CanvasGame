@@ -10,6 +10,7 @@ var         Map=[0,0,4,1,0,0,4,0,1,1,
                  0,1,1,0,0,0,0,0,0,0,
                  4,0,1,0,1,1,1,0,1,2,
                  1,0,0,0,0,4,0,0,1,3];
+
 var Initial = Map.slice();
 var c,cxt;
 var currentImgMainX,currentImgMainY;
@@ -430,7 +431,7 @@ function move(e)
     
     switch(e.keyCode)
     {
-        case 40://往下
+        case 83://往下
             targetImgMainX=currentImgMainX;
             targetImgMainY=currentImgMainY+60;
             if(targetImgMainX<=540 && targetImgMainX>=0 && targetImgMainY<=540 && targetImgMainY>=0)
@@ -458,7 +459,7 @@ function move(e)
                break;
             
             
-          case 38://往上
+          case 87://往上
             targetImgMainX=currentImgMainX;
             targetImgMainY=currentImgMainY-60;
             if(targetImgMainX<=540 && targetImgMainX>=0 && targetImgMainY<=540 && targetImgMainY>=0)
@@ -480,7 +481,7 @@ function move(e)
             
                break;
             
-          case 39://往右
+          case 68://往右
             targetImgMainX=currentImgMainX+60;
             targetImgMainY=currentImgMainY;
             if(targetImgMainX<=540 && targetImgMainX>=0 && targetImgMainY<=540 && targetImgMainY>=0)
@@ -502,7 +503,7 @@ function move(e)
             
                break;
             
-          case 37://往左
+          case 65://往左
             targetImgMainX=currentImgMainX-60;
             targetImgMainY=currentImgMainY;
             if(targetImgMainX<=540 && targetImgMainX>=0 && targetImgMainY<=540 && targetImgMainY>=0)
